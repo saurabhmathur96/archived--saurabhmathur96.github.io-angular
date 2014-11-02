@@ -32,6 +32,10 @@
 		  position: absolute;
 		  z-index: -1;   
 	}
+	div#overlay {
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* IE hack */
+    }
 	
 
 		
@@ -88,7 +92,7 @@
 						<a class="btn btn-default page-scroll" href="#about"><i class="fa fa-star"></i> About Me</a>
 					
 				</div>
-				<div class="blur"></div>
+				<div id="overlay"></div>
 				
 		</div>
 	</section>
