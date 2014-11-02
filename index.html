@@ -17,12 +17,16 @@
 		color: white;
 		background-color:black;
 	}
-	.intro-section {
-		background-image: url(http://androidwallpape.rs/content/02-wallpapers/113-upandabove/9.jpg);
-		background-image{
-		opacity: 0.6;
-	}
-		background-repeat: no-repeat;
+	.intro-section::after {
+		  content: "";
+		  background: url(http://androidwallpape.rs/content/02-wallpapers/113-upandabove/9.jpg);
+		  opacity: 0.5;
+		  top: 0;
+		  left: 0;
+		  bottom: 0;
+		  right: 0;
+		  position: absolute;
+		  z-index: -1;   
 	}
 	
 
