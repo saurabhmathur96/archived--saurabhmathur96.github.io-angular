@@ -19,7 +19,7 @@ a{
     text-decoration: none !important;
     color:white;
 }
-a:hover{
+a.contact:hover{
     color: white;
     font-weight: bold;
 }
