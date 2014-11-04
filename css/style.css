@@ -15,10 +15,13 @@ body{
 #wp:hover{
     color:#21759b;
 }
-a a:hover{
+a{
     text-decoration: none !important;
-    border:0!important;
     color:white;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
 }
 li.contact:hover{
     font-weight: bold;
