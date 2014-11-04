@@ -21,6 +21,7 @@ a{
 }
 a:hover{
     text-decoration: none;
+    color: white;
 }
 li.contact:hover{
     font-weight: bold;
