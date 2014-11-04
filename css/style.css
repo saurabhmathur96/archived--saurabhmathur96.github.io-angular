@@ -26,3 +26,7 @@ a.contact:hover{
 li.contact:hover{
     font-weight: bold;
 }
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .env { display: none; }  /* for on small screens */
+}
