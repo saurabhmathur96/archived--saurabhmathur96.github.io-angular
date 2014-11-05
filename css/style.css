@@ -24,6 +24,13 @@ a.contact:hover{
     font-weight: bold;
 }
 
+.contact-list{
+    list-style-type: none;
+    padding:5vw;
+    margin:0;
+    text-align: center;
+}
+
 .env{
     display: inline;
 }
@@ -53,6 +60,9 @@ a.contact:hover{
         padding: 5vw;
     }
   .env { display: none; }  /* for on small screens */
+  .contact-list{
+      font-height: 80%;
+  }
 }
 
 @keyframes slideOutLeft {
