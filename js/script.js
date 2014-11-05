@@ -12,10 +12,11 @@
 			})
 
 			// route for the about page
-			.when('/about', {
-				templateUrl : 'pages/about.html',
-				controller  : 'aboutController'
+			.when('/projects', {
+				templateUrl : 'pages/projects.html',
+				controller  : 'projectsController'
 			})
+			
 
 			// route for the contact page
 			.when('/contact', {
@@ -30,7 +31,7 @@
 		
 	});
 
-	scotchApp.controller('aboutController', function($scope) {
+	scotchApp.controller('projectsController', function($scope) {
 		
 	});
 
