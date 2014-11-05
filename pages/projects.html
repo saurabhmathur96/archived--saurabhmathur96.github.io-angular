@@ -3,11 +3,11 @@
 	
 	<p>Some of the projects I worked on : </p>
 	<div style="width: 80%">
-	<p ng-repeat="project in projects">
+	<div ng-repeat="project in projects">
 	<em>{{project.title}}</em>
-	<p>{{project.desc}}<p>
-	<a href="{{project.code}}"><i class="fa fa-code"></i> Code</a>
-	</p>
+	<p>{{project.description}}<p>
+	<a href="{{project.link_to_code}}"><i class="fa fa-code"></i> Code</a>
+	</div>
 	</div>
 	
 </div>
