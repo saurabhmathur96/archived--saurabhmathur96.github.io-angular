@@ -43,7 +43,7 @@ ul.contact-list{
     margin: 0;
     text-align: left;
 
-    padding-left:25vw;
+    padding-left:30vw;
     padding-right:15vw;
 }
 .env{
@@ -58,7 +58,8 @@ ul.contact-list{
 
 @media screen and (min-width: 0px) and (max-width: 500px) {
     #projects{
-        padding: 5vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
   .env { display: none; }  /* for on small screens */
   ul.contact-list{
