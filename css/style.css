@@ -31,12 +31,11 @@ a.contact:hover{
 #projects{
     position: relative;
     overflow-y: hidden;
-    text-align: left;
     float: left;
     width: 100%;
     height:100%;
     top: 0;
-    left: 0;
+    left: 0.5vw;
     margin: 0;
     left-margin: 0.5vw;
 
