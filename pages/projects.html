@@ -2,12 +2,10 @@
 	<h1>My Projects</h1>
 	
 	<p>Some of the projects I worked on : </p>
-	<div style="width: 80%">
 	<div ng-repeat="project in projects">
 	<em>{{project.title}}</em>
-	<p>{{project.description}}<p>
+	<p>{{project.description}}</p>
 	<a href="{{project.link_to_code}}"><i class="fa fa-code"></i> Code</a>
-	</div>
 	</div>
 	
 </div>
