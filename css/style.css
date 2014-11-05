@@ -26,8 +26,8 @@ a.contact:hover{
 
 .contact-list{
     list-style-type: none;
-    padding-left:5vw;
-    padding-right:5vw;
+    padding-left:2.5vw;
+    padding-right:2.5vw;
     margin:0;
     text-align: center;
 }
