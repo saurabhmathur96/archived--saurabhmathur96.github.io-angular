@@ -37,9 +37,9 @@ a.contact:hover{
     top: 0;
     left: 0.5vw;
     margin: 0;
-    left-margin: 0.5vw;
+    text-align: left;
 
-    padding:0;
+    padding:20px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
