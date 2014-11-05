@@ -24,10 +24,10 @@ a.contact:hover{
     font-weight: bold;
 }
 
-.contact-list{
+ul.contact-list{
     list-style-type: none;
-    padding-left:2.5vw;
-    padding-right:2.5vw;
+    padding-left:5vw;
+    padding-right:5vw;
     margin:0;
     text-align: center;
 }
@@ -61,7 +61,7 @@ a.contact:hover{
         padding: 5vw;
     }
   .env { display: none; }  /* for on small screens */
-  .contact-list{
+  ul.contact-list{
       font-height: 80%;
       padding: 0;
       text-align: left;
