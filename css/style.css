@@ -37,7 +37,7 @@ ul.contact-list{
 }
 
 #projects{
-    font-height: 90%;
+    font-size: 90%;
     position: relative;
     overflow-y: hidden;
     float: left;
@@ -62,7 +62,7 @@ ul.contact-list{
     }
   .env { display: none; }  /* for on small screens */
   ul.contact-list{
-      font-height: 80%;
+      font-size: 80%;
       padding-left: 0;
   }
 }
