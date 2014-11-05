@@ -56,14 +56,14 @@ a.contact:hover{
   width: device-width;
 }
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
+@media screen and (min-width: 0px) and (max-width: 500px) {
     #projects{
         padding: 5vw;
     }
   .env { display: none; }  /* for on small screens */
   .contact-list{
       font-height: 80%;
-      padding: none;
+      padding: 0;
   }
 }
 
