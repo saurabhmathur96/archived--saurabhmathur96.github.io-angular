@@ -23,9 +23,6 @@ a.contact:hover{
     color: white;
     font-weight: bold;
 }
-li.contact:hover{
-    font-weight: bold;
-}
 
 .env{
     display: inline;
@@ -34,3 +31,14 @@ li.contact:hover{
 @media screen and (min-width: 0px) and (max-width: 400px) {
   .env { display: none; }  /* for on small screens */
 }
+
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
+}
+@keyframes slideInRight {
+    from    { transform:translateX(100%); 
+    }
+    to      { transform: translateX(0%); }
+}
+.slides.ng-enter        { animation:slideInRight 0.8s both ease-in; }
+.slides.ng-leave        { animation:slideOutLeft 0.45s both ease-in; }
