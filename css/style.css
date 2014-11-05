@@ -39,8 +39,8 @@ a.contact:hover{
     margin: 0;
     text-align: left;
 
-    padding-left:10vw;
-    padding-right:10vw;
+    padding-left:25vw;
+    padding-right:25vw;
 }
 
 @-ms-viewport{
@@ -48,6 +48,9 @@ a.contact:hover{
 }
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
+    #projects{
+        padding: 5vw;
+    }
   .env { display: none; }  /* for on small screens */
 }
 
