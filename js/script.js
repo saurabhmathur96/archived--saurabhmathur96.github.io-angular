@@ -1,5 +1,5 @@
 	// create the module and name it scotchApp
-	var scotchApp = angular.module('portfolioApp', ['ngRoute']);
+	var scotchApp = angular.module('portfolioApp', ['ngRoute','ngAnimate']);
 
 	// configure our routes
 	scotchApp.config(function($routeProvider) {
