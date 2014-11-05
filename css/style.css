@@ -32,7 +32,6 @@ ul.contact-list{
     text-align: center;
 }
 #projects{
-    font-size: 90%;
     position: relative;
     overflow-y: hidden;
     float: left;
@@ -44,7 +43,6 @@ ul.contact-list{
     text-align: left;
 
     padding-left:30vw;
-    padding-right:15vw;
 }
 .env{
     display: inline;
@@ -58,6 +56,7 @@ ul.contact-list{
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
     #projects{
+        font-size: 80%;
         padding-left: 5vw;
         padding-right: 5vw;
     }
