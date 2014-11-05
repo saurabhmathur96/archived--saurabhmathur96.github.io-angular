@@ -1,18 +1,11 @@
 <div class="jumbotron text-center" style="color: white; background-color: transparent;">
 	<h1>My Projects</h1>
-	
+	<div id="projects">
 	<p>Some of the projects I worked on : </p>
-	<div ng-repeat="project in projects" style="    position: relative;
-    overflow-y: hidden;
-    float: left;
-    width: 100%;
-    height:100%;
-    top: 0;
-    left: 0;
-    margin: 0;
-    padding:0;">
+	<div ng-repeat="project in projects" >
 	{{project.title}}&nbsp<small>{{project.description}}</small>
 	<a href="{{project.link_to_code}}m"><i class="fa fa-code"></i> Code</a>
+	</div>
 	</div>
 	
 </div>
