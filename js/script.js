@@ -32,7 +32,7 @@
 	});
 
 	scotchApp.controller('projectsController', function($scope) {
-		$scope.projects = [{title: "twitter-analysis",desc: "Plots the frequency of hashtags related to a topic on twitter.", code: "https://github.com/saurabhmathur96/twitter-analysis"}]
+		$scope.projects = [{title: "twitter-analysis", description: "Plots the frequency of hashtags related to a topic on twitter.", link_to_code: "https://github.com/saurabhmathur96/twitter-analysis"}]
 	});
 
 	scotchApp.controller('contactController', function($scope) {
