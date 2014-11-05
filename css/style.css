@@ -63,6 +63,7 @@ a.contact:hover{
   .env { display: none; }  /* for on small screens */
   .contact-list{
       font-height: 80%;
+      padding: none;
   }
 }
 
