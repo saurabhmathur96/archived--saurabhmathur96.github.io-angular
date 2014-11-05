@@ -39,7 +39,11 @@ a.contact:hover{
     margin: 0;
     text-align: left;
 
-    padding-left:1vw;
+    padding-left:0.3vw;
+}
+
+@-ms-viewport{
+  width: device-width;
 }
 
 @media screen and (min-width: 0px) and (max-width: 400px) {
