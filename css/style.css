@@ -35,12 +35,11 @@ ul.contact-list{
     position: relative;
     overflow-y: hidden;
     float: left;
-    width: 100%;
+    width: 50vw;
     height:100%;
     top: 0;
     left: 0;
     margin: 0;
-    text-align: left;
 
     padding-left:10vw;
 }
