@@ -29,6 +29,7 @@ a.contact:hover{
 }
 
 #projects{
+    font-height: 90%;
     position: relative;
     overflow-y: hidden;
     float: left;
@@ -39,8 +40,7 @@ a.contact:hover{
     margin: 0;
     text-align: left;
 
-    padding-left:30vw;
-    padding-right:30vw;
+    padding-left:25vw;
 }
 
 @-ms-viewport{
