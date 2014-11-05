@@ -63,9 +63,7 @@ ul.contact-list{
   .env { display: none; }  /* for on small screens */
   ul.contact-list{
       font-height: 80%;
-      padding: 0;
-      text-align: left;
-      color: red;
+      padding-left: 0;
   }
 }
 
