@@ -37,8 +37,9 @@ a.contact:hover{
     height:100%;
     top: 0;
     left: 0;
-    left-margin: 20%;
     margin: 0;
+    left-margin: 20%;
+
     padding:0;
 }
 
