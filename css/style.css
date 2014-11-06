@@ -74,6 +74,27 @@ ul.contact-list{
     to      { transform: translateX(0%); }
 }
 
+@-webkit-keyframes slideInRight{
+    from {
+        -webkit-transform: translateX(100%);
+    }
+    to {
+        -webkit-transform: translateX(0%);
+    }
+}
+@-webkit-keyframes slideOutLeft{
+    to {
+        -webkit-transform: translateX(-100%);
+    }
+}
 
-.slides.ng-enter        { animation:slideInRight 0.8s both ease-in; }
-.slides.ng-leave        { animation:slideOutLeft 0.45s both ease-in; }
+
+.slides.ng-enter        {
+    animation:slideInRight 0.8s both ease-in;
+    -webkit-animation:slideInRight 0.8s both ease-in;
+}
+.slides.ng-leave        {
+    animation:slideOutLeft 0.45s both ease-in; 
+    -webkit-animation:slideOutLeft 0.45s both ease-in; 
+    
+}
