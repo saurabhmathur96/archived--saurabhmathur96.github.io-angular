@@ -32,6 +32,7 @@ ul.contact-list{
     text-align: center;
 }
 #projects{
+    padding-top:20vh;
     position: relative;
     text-align: left;
     width: 75%;
