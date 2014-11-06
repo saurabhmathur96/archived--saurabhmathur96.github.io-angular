@@ -65,19 +65,15 @@ ul.contact-list{
   }
 }
 
-@-webkit-keyframes slideInRight{
-    from {
-        -webkit-transform: translateX(100%);
-    }
-    to {
-        -webkit-transform: translateX(0%);
-    }
+@keyframes slideOutLeft {
+    to      { transform: translateX(-100%); }
 }
-@-webkit-keyframes slideOutLeft{
-    to {
-        -webkit-transform: translateX(-100%);
+@keyframes slideInRight {
+    from    { transform:translateX(100%); 
     }
+    to      { transform: translateX(0%); }
 }
+
 
 .slides.ng-enter        { animation:slideInRight 0.8s both ease-in; }
 .slides.ng-leave        { animation:slideOutLeft 0.45s both ease-in; }
