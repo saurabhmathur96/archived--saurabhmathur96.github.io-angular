@@ -34,7 +34,7 @@ ul.contact-list{
 #projects{
     position: relative;
     overflow-y: hidden;
-    float: center;
+    float: right;
     text-align: left;
     width: 50vw;
     height:100%;
